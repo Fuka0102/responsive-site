@@ -1,0 +1,80 @@
+body{
+    margin:0;
+}
+
+.box{
+    height:500px;
+    background-image:url(./GORIPAKU2894_TP_V.jpg);
+    background-size:cover;   
+}    
+
+
+.text-center{
+    text-align:center;
+}
+
+
+.skill-box {
+    margin: 2em 0.5em;
+    background: #dcefff;
+    float:left;
+    width:31%;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.skill-box .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin:0;
+}
+.skill-box p {
+    padding: 15px 20px;
+    margin: 0;
+}
+#contact{
+    background-color:#b0e0e6;
+    margin-top:50px;
+}
+#contact h2{
+    text-align:center;
+    margin:auto;
+}
+
+.btn{
+    display:block;
+    text-align:center;
+    background-color:#0000cd;
+    color:#fff;
+    line-height: 40px;
+    border-radius: 10%;
+    text-decoration:none;
+    padding: 4px;
+    width:170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+}
+.btn:hover{
+   opacity:0.5; 
+}
+
+/* 768px以下のモバイルサイズ */
+@media(max-width:768px){
+    .box {
+        height:250px;
+    }
+     .skill-box{
+        float:none;
+        width:97%;
+    }
+}
